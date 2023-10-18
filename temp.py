@@ -1,13 +1,14 @@
 # Temperature in degrees Fahrenheit (°F) = (Temperature in degrees Celsius (°C) * 9/5) + 32.
-def calc_temp(Ftemp):
-    celsuius * 9/5 + 32
-    return Ftemp
-    
-celsuius = 25
+def celsius_to_fahrenheit (celsuius):
+    ftemp = (celsuius * 9/5) + 32
+    return ftemp
 
-#Ftemp = calc_temp
-Ftemp = celsuius * 9/5 + 32
-print(f'25 degrees celsius to fahrenheit is {Ftemp}')
+celsuius = 25
+ftemp = celsius_to_fahrenheit(celsuius)
+
+print(f'25 degrees celsius to fahrenheit is {ftemp}')
+
+
 
 
 
