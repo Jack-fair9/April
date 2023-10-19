@@ -10,7 +10,7 @@ print(f'25 degrees celsius to fahrenheit is {ftemp}')
 
 fah = 82
 
-
+# temperature in fahrenheit to celsius
 def fahrenheit_to_celsius (fah):
     ctemp =  5/9 * (fah - 32)
     return ctemp
