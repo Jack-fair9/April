@@ -22,6 +22,6 @@ print(f"fahrenheit of 82 is {ctemp} in celsius")
 
 
 
-#def calc_temp(ToFahrenheit):
-    #celsuius * 9/5 + 32
+
+
     
