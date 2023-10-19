@@ -5,7 +5,7 @@ def celsius_to_fahrenheit (celsuius):
 
 celsuius = 25
 ftemp = celsius_to_fahrenheit(celsuius)
-
+ftemp = round(ftemp)
 print(f'25 degrees celsius to fahrenheit is {ftemp}')
 
 fah = 82
@@ -16,11 +16,8 @@ def fahrenheit_to_celsius (fah):
     return ctemp
 
 ctemp = fahrenheit_to_celsius(fah)
-
-(print(f"fahrenheit of 82 is {ctemp} in celsius"),  round)
-
-
-
+ctemp = round(ctemp)
+print(f"fahrenheit of 82 is {ctemp} in celsius")
 
 
 
